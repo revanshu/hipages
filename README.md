@@ -24,7 +24,7 @@ From root repo:
 * `npm install`
 * `npm install -g nodemon`  // globally install nodemon
 * `DEBUG=server:* nodemon bin/www` or `npm run start:nodemon`  // run the server in debug mode
-* NOTE: If you have different mysql uername and password, change configuration in config.js
+* NOTE: If you have different mysql uername, host, database and password, change configuration in config.js
 
 ### 4. Start the UI
 
