@@ -2,6 +2,10 @@
 
 ## Steps to run the application
 
+### 0. Clone repo and move inside it
+* `git clone https://github.com/revanshu/hipages.git`
+* `cd hipages/`
+
 ### 1. Mysql setup
 Install mysql in your system, create a database 'hipages' and import table from "init.sql"
 
@@ -17,10 +21,11 @@ Starting from the root repo:
 
 From root repo:
 * `cd server/`
+* `npm install`
 * `npm install -g nodemon`  // globally install nodemon
 * `DEBUG=server:* nodemon bin/www` or `npm run start:nodemon`  // run the server in debug mode
 
-### 2. Start the UI
+### 3. Start the UI
 
 From root repo:
 * `cd ui/`
