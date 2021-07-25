@@ -1,0 +1,142 @@
+#root{
+    background-color: #eee;
+}
+
+.container{
+    height: 100%;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tabs{
+    display: flex;
+    height: 50px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    box-shadow: 0px 1px #ddd;
+}
+
+.tab:first-child{
+    border-right: 1px solid #ddd;
+}
+
+.rows{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0px 1px #ddd;
+    border: 1px solid #ddd;
+}
+
+.rows > div {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+}
+
+.rows button {
+    width: 80px;
+    height: 35px;
+    margin-right: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0px 1px #888888;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 3px solid #FF7B15;
+    font-weight: 700;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact-time{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #7C7C7C;
+}
+
+.name{
+    padding-left: 20px;
+}
+
+.full-name{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.name-image {
+    border-radius: 40px;
+    background-color: #FF7B15; 
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.details span{
+    font-size: 14px;
+    margin-right: 10px;
+    color: #7C7C7C;
+}
+
+.phone-email span{
+    font-size: 14px;
+    margin-right: 10px;
+    color: #FF7B15;
+}
+
+svg {
+    color: #7C7C7C;
+    margin-right: 10px;
+}
+
+.description{
+    font-size: 12px;
+    color: #7C7C7C;
+}
+
+.footer span{
+    margin-right: 10px;
+}
+
+.footer button:first-child{
+    background-color: #FF7B15; 
+    color: white;
+}
+
+.price-text{
+    font-size: 14px;
+    color: #7C7C7C;
+}
+
+.price-value{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.no-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
