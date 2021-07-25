@@ -53,7 +53,7 @@ export default class InvitedListComponent extends PureComponent {
         return (
             <div className="cards">
                 {!loading && listDiv}
-                {loading && <div>Loading...</div>}
+                {loading && <div class="no-data">Loading...</div>}
                 {!listDiv &&  <div class="no-data">No Data</div>}
             </div>
         );

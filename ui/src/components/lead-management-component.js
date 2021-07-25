@@ -11,19 +11,6 @@ export default class LeadManagementComponent extends PureComponent {
         }
     }
 
-    // componentDidMount(){
-    //     fetch(`http://localhost:9090/jobs`, {
-    //       method: 'GET',
-    //     })
-    //       .then((res) => res.json())
-    //       .then((response) => {
-    //           this.setState({jobs: response.data})
-    //         console.log(response);
-    //       }).catch((e) => {
-    //         console.log(e);
-    //       })
-    // }
-
     onInviteClick = () => {
         this.setState({tab: 'invited'})
     }
