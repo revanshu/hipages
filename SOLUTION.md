@@ -3,25 +3,25 @@ Solution Documentation
 
 Components
 ===========================
-LeadManagementComponent
-InvitedListComponent
-AcceptedListComponent
-InvitedCardComponent
-AcceptedCardComponent
+* LeadManagementComponent
+* InvitedListComponent
+* AcceptedListComponent
+* InvitedCardComponent
+* AcceptedCardComponent
 
 API's
 ===========================
-/jobs/new GET  (For invited list)
-/jobs/accepted GET  (For accepted list)
-/jobs/update POST
+* /jobs/new GET  (For invited list)
+* /jobs/accepted GET  (For accepted list)
+* /jobs/update POST
 
 UI Design
 ===========================
-onTabChange: As of now we are making new API call to get the Invited/Accepted lead list on click of tabs
+* onTabChange: As of now we are making new API call to get the Invited/Accepted lead list on click of tabs
 
-onAccept: We will make the API call to update lead status and will show loading message to the user, once the update is successful we will reload the whole set of invited list again
+* onAccept: We will make the API call to update lead status and will show loading message to the user, once the update is successful we will reload the whole set of invited list again
 
-onDecline: We will make the API call to update lead status and will show loading message to the user, once the update is successful we will reload the whole set of invited list again
+* onDecline: We will make the API call to update lead status and will show loading message to the user, once the update is successful we will reload the whole set of invited list again
 
 
 Future changes
