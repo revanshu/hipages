@@ -1,8 +1,8 @@
-Hipages application
+# Hipages application
 
-### Steps to run the application
+## Steps to run the application
 
-## 1. Mysql setup
+### 1. Mysql setup
 Install mysql in your system, create a database 'hipages' and import table from "init.sql"
 
 Starting from the root repo:
@@ -13,14 +13,14 @@ Starting from the root repo:
 * `cd db/`
 * `mysql -u root hipages < init.sql`
 
-## 2. Start the node server
+### 2. Start the node server
 
 From root repo:
 * `cd server/`
 * `npm install -g nodemon`  // globally install nodemon
 * `DEBUG=server:* nodemon bin/www` or `npm run start:nodemon`  // run the server in debug mode
 
-## 2. Start the UI
+### 2. Start the UI
 
 From root repo:
 * `cd ui/`
